@@ -1,0 +1,11 @@
+server:
+  port: 8888
+spring:
+  application:name: Configuration-Microservice
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Flekchaz/my-config-repo.git
+          default-label: master
+          clone-on-start: true

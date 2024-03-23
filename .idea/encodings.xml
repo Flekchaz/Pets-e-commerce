@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Authentication-Microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Configuration-Microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Eureka-Microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Gateway-Microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Security-Microservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Security-Microservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
