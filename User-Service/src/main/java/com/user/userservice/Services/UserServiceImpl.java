@@ -9,6 +9,7 @@ import com.user.userservice.Enums.ErrorCode;
 import com.user.userservice.Exceptions.CustomException;
 import com.user.userservice.Utils.UserMapper;
 import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,6 +18,7 @@ import java.util.stream.Collectors;
 
 @Service
 @AllArgsConstructor
+
 
 public class UserServiceImpl implements UserService {
 
@@ -59,9 +61,6 @@ public class UserServiceImpl implements UserService {
        User updatedUser = userRepository.save(user);
 
        return userMapper.userToUserResponse(updatedUser);
-
-
-
     }
 
     @Override

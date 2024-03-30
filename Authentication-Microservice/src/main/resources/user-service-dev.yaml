@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/userdb_dev
+    username: dev_user
+    password: dev_secret
