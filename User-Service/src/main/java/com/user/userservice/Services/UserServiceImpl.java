@@ -10,6 +10,8 @@ import com.user.userservice.Exceptions.CustomException;
 import com.user.userservice.Utils.UserMapper;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,11 +22,13 @@ import java.util.stream.Collectors;
 @AllArgsConstructor
 
 
+
 public class UserServiceImpl implements UserService {
 
     private final UserRepository userRepository;
     private final UserMapper userMapper;
 
+    //private final PasswordEncoder passwordEncoder;
 
 
     @Override

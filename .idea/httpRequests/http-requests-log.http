@@ -1,58 +1,505 @@
-POST http://localhost:9898/token
+GET http://localhost:9899/auth/profile
 Accept: application/json
-Authorization: basic dXNlcjE6MTIzNA==
-Content-Length: 0
+Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyMiIsImV4cCI6MTcxMTkzOTY0MSwiaWF0IjoxNzExOTM5MDQxLCJzY29wZSI6IkFETUlOIFVTRVIifQ.7FCD-XALUtdftF481ld80l_61vf6rf3LMXONUWCvnOide9lcEa7qsLiTW9WGlZxgIdpT1lXW3nLlvKKvhGEz1Q
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-03-22T105901.200.json
+<> 2024-04-01T023959.200.json
+
+###
+
+POST http://localhost:9899/auth/login
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=user2&password=1234
+
+<> 2024-04-01T023721.200.json
+
+###
+
+POST http://localhost:9899/auth/login
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=user1&password=1234
+
+<> 2024-04-01T023536.200.json
+
+###
+
+POST http://localhost:9899/auth/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=user1&password=1234
+
+###
+
+POST http://localhost:9899/auth/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=user1&password=1234
+
+###
+
+POST http://localhost:9899/auth/
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 28
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+username=user1&password=1234
+
+###
+
+GET http://localhost:9899/profile
+Accept: application/json
+Authorization: Basic dXNlcjI6MTIzNA==
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-04-01T014018.200.json
 
 ###
 
 POST http://localhost:9898/token
 Accept: application/json
-Authorization: basic dXNlcjE6MTIzNA==
+Authorization: Basic YWRtaW46MTIzNA==
 Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-03-22T094556.200.json
-
 ###
 
-GET http://localhost:9898/token
+POST http://localhost:9898/token
 Accept: application/json
-Authorization: basic dXNlcjE6MTIzNA==
+Authorization: Basic YWRtaW46MTIzNA==
+Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-03-22T094546.405.json
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/tokens
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
 
 ###
 
 GET http://localhost:9898/dataTest
 Accept: application/json
-Authorization: basic dXNlcjE6MTIzNA==
+Authorization: Basic dXNlcjE6MTIzNA==
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-03-22T094521.200.json
+###
+
+GET http://localhost:9898/dataTest
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:9898/dataTest
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:9898/dataTest
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
 
 ###
 
 POST http://localhost:9898/token
 Accept: application/json
-Authorization: basic dXNlcjE6MTIzNA==
+Authorization: Basic dXNlcjE6MTIzNA==
 Content-Length: 0
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
-<> 2024-03-22T022752.200.json
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Bearer dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Bearer dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:9898/token
+Accept: application/json
+Authorization: Bearer dXNlcjE6MTIzNA==
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:9898/dataTest
+Accept: application/json
+Authorization: Basic user1:1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:9898/dataTest
+Accept: application/json
+Authorization: Basic user1:1234
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token/
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token/
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic YWRtaW46MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Content-Length: 37
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Authorization: Basic dXNlcjE6MTIzNA==
+
+###
+
+POST http://localhost:9898/token
+Content-Type: application/x-www-form-urlencoded
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+POST http://localhost:9898/token
+Accept: application/json
+Authorization: Basic dXNlcjE6MTIzNA==
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.8)
+Accept-Encoding: br,deflate,gzip,x-gzip
 
 ###
 

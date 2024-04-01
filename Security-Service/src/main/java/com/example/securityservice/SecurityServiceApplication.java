@@ -1,14 +1,13 @@
-package com.user.userservice;
+package com.example.securityservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class UserServiceApplication {
+public class SecurityServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(UserServiceApplication.class, args);
+        SpringApplication.run(SecurityServiceApplication.class, args);
     }
 
 }

@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8088  # URL where the Config Server is running
+      fail-fast: true

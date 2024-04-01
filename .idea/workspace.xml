@@ -5,15 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1285c790-d5f1-490b-8169-ff235648f01f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/user-service-dev.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Dtos/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/resources/user-service-dev.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/resources/user-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-03-22T022752.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-03-22T094521.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-03-22T094546.405.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-03-22T094556.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-03-22T105901.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/AuthenticationMicroserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/AuthenticationMicroserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Configs/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Configs/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Controllers/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Services/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Services/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/keypair.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/keypair.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/private.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/private.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/public.pem" beforeDir="false" afterPath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/certs/public.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/user-service-dev.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Authentication-Microservice/src/main/resources/user-service.yaml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Configuration-Microservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration-Microservice/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/src/main/java/com/security/securitymicroservice/Config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/src/main/java/com/security/securitymicroservice/SecurityMicroserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/src/main/java/com/security/securitymicroservice/Service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Security-Microservice/src/test/java/com/security/securitymicroservice/SecurityMicroserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-Service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/User-Service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/Services/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/user/userservice/UserServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/User-Service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/User-Service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +88,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moad/Desktop/FullStack Course SpringAngular/Ecommerce-project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moad/Desktop/Pets-e-commerce-master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,24 +97,33 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.UserServiceApplication">
-    <configuration name="rest-api_1 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_1.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.SecurityServiceApplication">
+    <configuration name="rest-api_11 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_11.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_2 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="rest-api_11 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_11.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_3 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="rest-api_8 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_8.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="rest-api_3 | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" index="2" requestIdentifier="#2" runType="Run single request">
+    <configuration name="rest-api_9 | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_9.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
+    </configuration>
+    <configuration name="All in Security-Service" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Security-Service" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="AuthenticationMicroserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Authentication-Microservice" />
@@ -138,6 +176,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecurityServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="Security-Service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.securityservice.SecurityServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="User-Service" />
@@ -148,10 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api_3 | #2" />
-        <item itemvalue="HTTP Request.rest-api_3 | #1" />
-        <item itemvalue="HTTP Request.rest-api_2 | #1" />
-        <item itemvalue="HTTP Request.rest-api_1 | #1" />
+        <item itemvalue="HTTP Request.rest-api_11 | #1" />
+        <item itemvalue="HTTP Request.rest-api_11 | #2" />
+        <item itemvalue="HTTP Request.rest-api_9 | #1" />
+        <item itemvalue="JUnit.All in Security-Service" />
+        <item itemvalue="HTTP Request.rest-api_8 | #1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +224,11 @@
       <workItem from="1711535327773" duration="4241000" />
       <workItem from="1711625615979" duration="4113000" />
       <workItem from="1711704877219" duration="8313000" />
-      <workItem from="1711760649860" duration="2397000" />
+      <workItem from="1711760649860" duration="9220000" />
+      <workItem from="1711892908523" duration="804000" />
+      <workItem from="1711894347880" duration="3301000" />
+      <workItem from="1711933044397" duration="35000" />
+      <workItem from="1711933279510" duration="6958000" />
     </task>
     <servers />
   </component>
@@ -192,12 +243,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Configs/SecurityConfig.java</url>
-          <line>46</line>
+          <line>48</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/Authentication-Microservice/src/main/java/com/authentication/authenticationmicroservice/Configs/SecurityConfig.java</url>
-          <line>134</line>
+          <line>142</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

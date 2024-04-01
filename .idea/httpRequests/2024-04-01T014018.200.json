@@ -1,0 +1,33 @@
+{
+  "authorities": [
+    {
+      "authority": "ADMIN"
+    },
+    {
+      "authority": "USER"
+    }
+  ],
+  "details": {
+    "remoteAddress": "127.0.0.1",
+    "sessionId": null
+  },
+  "authenticated": true,
+  "principal": {
+    "password": null,
+    "username": "user2",
+    "authorities": [
+      {
+        "authority": "ADMIN"
+      },
+      {
+        "authority": "USER"
+      }
+    ],
+    "accountNonExpired": true,
+    "accountNonLocked": true,
+    "credentialsNonExpired": true,
+    "enabled": true
+  },
+  "credentials": null,
+  "name": "user2"
+}

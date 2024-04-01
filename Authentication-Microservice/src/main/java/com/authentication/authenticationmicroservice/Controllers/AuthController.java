@@ -8,6 +8,7 @@ import org.springframework.security.oauth2.jwt.JwtClaimsSet;
 import org.springframework.security.oauth2.jwt.JwtEncoder;
 import org.springframework.security.oauth2.jwt.JwtEncoderParameters;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.time.Instant;
@@ -20,7 +21,6 @@ import java.util.stream.Collectors;
 @RestController
 public class AuthController {
 
-    private static final Logger LOG =  LoggerFactory.getLogger(AuthController.class);
 
     private final TokenService tokenService;
 
@@ -29,9 +29,9 @@ public class AuthController {
     }
     @PostMapping("/token")
     public String token(Authentication authentication){
-        LOG.debug("Token requested for user: '{}'", authentication.getName());
+
         String token = tokenService.generateToken(authentication);
-        LOG.debug("Token generated {}",token);
+
         return token;
 
     }

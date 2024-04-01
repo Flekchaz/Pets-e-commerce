@@ -8,6 +8,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 
 @SpringBootApplication
 @EnableConfigurationProperties(RSAKeyConfig.class)
+
 public class AuthenticationMicroserviceApplication {
 
     public static void main(String[] args) {
